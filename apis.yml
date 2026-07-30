@@ -1,19 +1,85 @@
 aid: kitch
-name: kitch
-description: kitch is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kitch.png
+name: Kitch
+description: >-
+  Kitch was a Lisbon, Portugal based restaurant technology company founded in
+  2019 by Rui Bento and Nuno Rodrigues, both former Uber executives for southern
+  Europe. After starting as a delivery-first "dark kitchen" operator, Kitch
+  pivoted during the 2020 pandemic into a SaaS platform that let restaurants
+  consolidate and manage digital orders arriving from multiple third-party
+  delivery marketplaces — Glovo, Uber Eats, Bolt Food and Just Eat among them —
+  on a single tablet, alongside their own direct-ordering storefront, so
+  operators could keep control of their menus, pricing and customer identity
+  instead of depending on the aggregator apps. Kitch raised roughly EUR 1 million
+  in pre-seed funding led by Seedcamp and Mustard Seed MAZE, followed by a EUR
+  3.25 million seed round led by Atlantic Food Labs. The company was acquired by
+  Barcelona-based delivery platform Glovo in a deal signed in January 2022 and
+  announced in March 2022, and the standalone Kitch brand has since been retired.
+  Kitch never published a public developer program: no developer portal, API
+  reference, OpenAPI definition, SDK, or status page was ever published on
+  kitch.io, and none appears in the Internet Archive's record of the domain. The
+  kitch.io domain registration has since lapsed and now resolves to an unrelated
+  third-party gambling site, so no live link is carried in this profile.
 url: https://raw.githubusercontent.com/api-evangelist/kitch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - seedcamp
+- mustard-seed-maze
+- atlantic-food-labs
+- market-one-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-developer-surface
+x-status: acquired
+x-acquired-by: glovo
+x-acquired-date: '2022-01'
+x-acquired-announced: '2022-03-15'
+x-founded: '2019'
+x-headquarters: Lisbon, Portugal
+x-founders:
+- Rui Bento
+- Nuno Rodrigues
+x-domain-status: >-
+  lapsed — kitch.io no longer belongs to the company. As of 2026-07-19 it returns
+  HTTP 301 to an unrelated gambling domain (1-win.in.net). The former website,
+  pricing and legal pages are only available via the Internet Archive. Do NOT
+  probe, link, or harvest this domain: any TLS/DNS/security posture or content
+  observed there belongs to the current squatter, not to Kitch, and recording it
+  would misattribute third-party data to this provider.
+x-enrichment: >-
+  Enrichment pass 2026-07-19 found no live provider surface and therefore added
+  no artifacts. Searched: kitch.io and the docs./api./developer. subdomains (all
+  dead or squatted), the Internet Archive CDX index for kitch.io (only marketing,
+  pricing and legal pages were ever captured — no docs, reference, spec, or
+  status page), APITracker, Crunchbase, and GitHub for a Kitch organization.
+  There is no OpenAPI to ground overlays, error catalogs, data models, scopes,
+  authentication profiles, conventions, agentic-access or Agent Skills in, and no
+  registry packages, MCP server, well-known documents, sandbox, changelog, CLI or
+  event surface exist. Nothing further can be produced without fabrication.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Restaurants
+- Food Delivery
+- Order Management
+- Point of Sale
+- SaaS
+- Portugal
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +87,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
-- type: Website
-  url: http://kitch.io
+- type: Acquisition
+  name: Kitch acquired by Glovo (Crunchbase)
+  url: https://www.crunchbase.com/acquisition/glovo-app-acquires-kitch--e6e17fc6
+- type: Press
+  name: Lisbon's Kitch raises $4M to help restaurants take control of the delivery app mess (TechCrunch)
+  url: https://techcrunch.com/2021/05/11/lisbons-kitch-raises-4m-to-helps-restaurants-to-take-control-of-the-delivery-app-mess/
+- type: Press
+  name: Hogan Lovells advises Portuguese start-up Kitch on its sale to Glovo
+  url: https://www.hoganlovells.com/en/news/hogan-lovells-advises-portuguese-start-up-kitch-on-its-sale-to-glovo
