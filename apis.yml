@@ -43,6 +43,9 @@ description: >-
   kitch.io domain registration has since lapsed and now resolves to an unrelated
   third-party gambling site, so no live link is carried in this profile.
 url: https://raw.githubusercontent.com/api-evangelist/kitch/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Kitch never published a public developer program: no developer portal, API reference, OpenAPI definition, SDK, or status page was ever published on kitch.io, and none appears in the Internet Archive's"
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
