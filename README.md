@@ -64,22 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kitch was a Lisbon, Portugal based restaurant technology company founded in 2019 by Rui Bento and Nuno Rodrigues, both former Uber executives for southern Europe. After starting as a delivery-first "dark kitchen" operator, Kitch pivoted during the 2020 pandemic into a SaaS platform that let restaurants consolidate and manage digital orders arriving from multiple third-party delivery marketplaces — Glovo, Uber Eats, Bolt Food and Just Eat among them — on a single tablet, alongside their own direct-ordering storefront.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: Seedcamp, Mustard Seed MAZE, Atlantic Food Labs, Market One Capital.
+Kitch was a Lisbon, Portugal based restaurant technology company founded in 2019 by Rui Bento and Nuno Rodrigues, both former Uber executives for southern Europe. After starting as a delivery-first "dark kitchen" operator, Kitch pivoted during the 2020 pandemic into a SaaS platform that let restaurants consolidate and manage digital orders arriving from multiple third-party delivery marketplaces — Glovo, Uber Eats, Bolt Food and Just Eat among them — on a single tablet, alongside their own direct-ordering storefront, so operators could keep control of their menus, pricing and customer identity instead of depending on the aggregator apps. Kitch raised roughly EUR 1 million in pre-seed funding led by Seedcamp and Mustard Seed MAZE, followed by a EUR 3.25 million seed round led by Atlantic Food Labs. The company was acquired by Barcelona-based delivery platform Glovo in a deal signed in January 2022 and announced in March 2022, and the standalone Kitch brand has since been retired. Kitch never published a public developer program: no developer portal, API reference, OpenAPI definition, SDK, or status page was ever published on kitch.io, and none appears in the Internet Archive's record of the domain. The kitch.io domain registration has since lapsed and now resolves to an unrelated third-party gambling site, so no live link is carried in this profile.
 
-## Status: acquired, no developer surface
+**Areas:** Company · Restaurant · Food Delivery · Order Management · Point-of-Sale · Software-as-a-Service · Portugal · Acquired · Defunct
 
-Kitch was **acquired by Glovo** — signed January 2022, announced 15 March 2022. The standalone brand has since been retired.
+## Kitch on APIs.io (historical record)
 
-**The `kitch.io` domain has lapsed.** As of 2026-07-19 it returns `301` to an unrelated third-party gambling domain. It is no longer associated with the company, and this profile deliberately carries **no live link to it**. Anything observed at that domain — content, TLS, DNS, security posture — belongs to the current registrant, not to Kitch, and must not be harvested into this repo.
+Everything profiled for Kitch is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kitch/](https://apis.io/providers/kitch/)** — or go straight to one of the APIs or properties below.
 
-## Enrichment
+## API Evangelist rating
 
-The enrichment pipeline ran on 2026-07-19 and added **no artifacts**, because there is nothing real to capture:
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
 
-- No developer portal, API reference, OpenAPI/AsyncAPI definition, SDK, CLI, MCP server, or status page was ever published. The Internet Archive's index of `kitch.io` contains only marketing, pricing and legal pages.
-- With no specification, the derived artifacts (overlays, error catalog, data model, scopes, authentication profile, conventions, agentic access, Agent Skills) have no source to derive from.
-- Domain probes (well-known documents, domain security, vulnerability disclosure, trust center) were **deliberately skipped** — they would record the squatter's posture under Kitch's name.
+## How this profile is made
 
-Sources: [TechCrunch](https://techcrunch.com/2021/05/11/lisbons-kitch-raises-4m-to-helps-restaurants-to-take-control-of-the-delivery-app-mess/), [Crunchbase acquisition profile](https://www.crunchbase.com/acquisition/glovo-app-acquires-kitch--e6e17fc6), [Hogan Lovells](https://www.hoganlovells.com/en/news/hogan-lovells-advises-portuguese-start-up-kitch-on-its-sale-to-glovo).
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kitch: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kitch/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
